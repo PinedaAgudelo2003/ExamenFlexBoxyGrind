@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página del Boxeo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con logo -->
+    <header class="encabezado">
+        <img src="Logo boxeo.jpg" alt="Logo Boxeo" class="logo">
+        <h1>El Mundo del Boxeo</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#boxeadores">Boxeadores</a></li>
+                <li><a href="#entrenadores">Entrenadores</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Historia -->
+    <section id="historia" class="seccion">
+        <h2>Historia del Boxeo</h2>
+        <p>
+            El boxeo es un deporte de combate que tiene sus orígenes en la antigua Grecia.
+            Con el paso de los siglos, se convirtió en uno de los deportes más seguidos a nivel mundial,
+            siendo símbolo de disciplina, fuerza y estrategia.
+        </p>
+    </section>
+
+    <!-- Boxeadores -->
+    <section id="boxeadores" class="seccion">
+        <h2>Grandes Boxeadores</h2>
+        <p>
+            A lo largo de la historia, han existido boxeadores legendarios como Muhammad Ali, Mike Tyson,
+            Julio César Chávez y Floyd Mayweather, quienes dejaron una huella imborrable en el deporte.
+        </p>
+    </section>
+
+  <!-- Entrenadores -->
+<section id="entrenadores" class="seccion">
+    <h2>Entrenadores Destacados</h2>
+    <p>
+        Los entrenadores han sido parte fundamental en el éxito de los campeones. 
+        Figuras como Cus D'Amato, Nacho Beristáin y Freddie Roach son recordados por su gran legado en el boxeo.
+    </p>
+
+    <!-- Galería de entrenadores -->
+    <div class="galeria-entrenadores">
+        <img src="Lou_Duva.jpg" alt="Entrenador 1">
+        <img src="Angelo_Dundee.jpeg" alt="Entrenador 2">
+        <img src="Cus_DAmato_1959.jpg" alt="Entrenador 3">
+        <img src="Freddie_Roach.jpg" alt="Entrenador 4">
+        <img src="Steward.jpg" alt="Entrenador 5">
+        <img src="Ray_Arcel_1942.jpg" alt="Entrenador 6">
+    </div>
+</section>
+
+    <!-- Galería de fotos -->
+    <section id="galeria" class="seccion">
+        <h2>Galería de Boxeadores</h2>
+        <div class="galeria">
+            <!-- Primera fila con Flexbox -->
+            <div class="fila-flex">
+                <figure>
+                    <img src="Mohamed.jpg" alt="Boxeador 1">
+                    <figcaption>Mohamed Ali.</figcaption>
+                </figure>
+                <figure>
+                    <img src="Myke.jpg" alt="Boxeador 2">
+                    <figcaption>Myke Tyson.</figcaption>
+                </figure>
+                <figure>
+                    <img src="Gervonta.jpg" alt="Boxeador 3">
+                    <figcaption>Gervonta Davis.</figcaption>
+                </figure>
+            </div>
+            <!-- Segunda fila con Grid -->
+            <div class="fila-grid">
+                <figure>
+                    <img src="Canelo Cinturones.jpg" alt="Boxeador 4">
+                    <figcaption>Canelo Alvarez.</figcaption>
+                </figure>
+                <figure>
+                    <img src="Maywether.jpg" alt="Boxeador 5">
+                    <figcaption>Mayweather Jr.</figcaption>
+                </figure>
+                <figure>
+                    <img src="Mexicano.jpg" alt="Boxeador 6">
+                    <figcaption>Ryan Garcia</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contacto con imagen de fondo -->
+<section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <div class="formulario-fondo">
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="email">Correo:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <div class="footer-right"> 
+        <p>
+           Derechos Reservados <br>
+           MundoBoxeo <br>
+           Contacto: info@MundoBoxeo.com <br>
+           Telefono: 3126636105 <br>
+        </p>
+        </div>
+        <p> Mundo Del Boxeo - Creado por Brahian</p>
+    </footer>
+</body>
+</html>
